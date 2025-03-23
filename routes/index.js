@@ -8,7 +8,7 @@ routes.use(
   '/',
   (docData = (req, res) => {
     let docData = {
-      documentationURL: 'http://localhost:8080/api-docs',
+      documentationURL: './api-docs',
     };
     res.send(docData);
   })
